@@ -5,6 +5,12 @@ BODY {
   color: #444;
   font-weight: 400;
 }
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*banner name at top*/
 #name {
   font-size: 3em;
@@ -17,10 +23,13 @@ BODY {
   margin: 0 auto;
 }
 /*name at top*/
-strong {
+#title {
    color: #33485e;
    text-transform: uppercase;;
    font-size: 1.5em;
+   font-weight: 600;
+   text-align: center;
+   margin-top: 20px;
 }
 /*experience section title*/
 #sectionheader {
@@ -72,4 +81,11 @@ li {
   padding: 0;
   text-align: center;
   display: inline;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
