@@ -81,8 +81,6 @@ BODY {
 /*list items*/
 li {
   font-size: 1em;
-  display: inline;
-  list-style-type: none;
 }
 
 /*paragraph class*/
@@ -90,11 +88,16 @@ li {
   margin-top: 10px;
 }
 
-/*contact menu*/
-.menu {
+.menu ul {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+/*contact menu*/
+.menu li {
+  display: inline;
+  list-style-type: none;
 }
 
 .top{
