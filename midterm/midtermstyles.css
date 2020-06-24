@@ -39,7 +39,8 @@ p {
 
 
 blockquote {
-  font: 16px/24px normal helvetica, sans-serif;
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
   font-style: italic;
   margin-top: 10px;
   margin-bottom: 10px;
