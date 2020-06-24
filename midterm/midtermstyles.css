@@ -1,0 +1,51 @@
+#content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Inria Serif', serif;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Inria Serif', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/*applies to all bylines and publciation dates*/
+#byline {
+  font-style: italic;
+  font-family: 'Inria Serif', serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px:
+}
+
+.image {
+  text-align: center;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+blockquote {
+  font: 16px/24px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #011895;
+  margin-left: 40px;
+  padding-left: 8px;
+  border-left: 4px solid black;
+
+}
