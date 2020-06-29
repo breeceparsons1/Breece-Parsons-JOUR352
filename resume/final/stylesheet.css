@@ -135,3 +135,10 @@ p {
 .jumbotron {
   color: white;
 }
+
+#copyright {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-top: 50px;
+}
