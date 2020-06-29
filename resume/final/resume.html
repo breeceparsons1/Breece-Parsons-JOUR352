@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
+<style>
+
+@media screen and (max-width: 1000px) {
+    .image {display: none;}
+}
+
+</style>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Bootstrap Template</title>
+  <title>Breece Parsons Resume</title>
   <meta name="resume" content="Breece Parsons Resume">
   <meta name="author" content="Breece Parsons">
 
@@ -20,8 +29,10 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#">Navbar</a>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFA08C;">
+   <a class="navbar-brand" href="#"><strong>Breece Parsons
+   </strong></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -32,65 +43,45 @@
          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#">Experience</a>
+         <a class="nav-link" href="#expheader">Experience</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#">Education</a>
+         <a class="nav-link" href="#eduheader">Education</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#">Skills</a>
+         <a class="nav-link" href="#skillsheader">Skills</a>
        </li>
 
-
-
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Dropdown
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Action</a>
-           <a class="dropdown-item" href="#">Another action</a>
-           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Something else here</a>
-         </div>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-       </li>
-     </ul>
-     <form class="form-inline my-2 my-lg-0">
-       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-     </form>
    </div>
   </nav>
 
 
-<div class="container">
-  <div class="banner">
-    <img src="images/banner.png" alt="banner" class="banner">
-  </div>
+  <div class="container">
+    <div class="banner">
+      <img src="images/banner.png" alt="banner" class="banner">
+    </div>
 
   <div class="menu">
     <ul>
-      <li><a href="mailto:breeceparsons1@gmail.com"><i class="fas fa-envelope-square fa-3x" style="color:#FFA08C"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/breeceparsons/"><i class="fab fa-linkedin fa-3x" style="color:#FFA08C"></i></a></li>
-      <li><a href="https://twitter.com/breeceparsons1"><i class="fab fa-twitter fa-3x" style="color:#FFA08C"></i></a></li>
+      <li><a target=_new href="mailto:breeceparsons1@gmail.com"><i class="fas fa-envelope-square fa-3x" style="color:#FFA08C"></i></a></li>
+      <li><a target=_new href="https://www.linkedin.com/in/breeceparsons/"><i class="fab fa-linkedin fa-3x" style="color:#FFA08C"></i></a></li>
+      <li><a target=_new href="https://twitter.com/breeceparsons1"><i class="fab fa-twitter fa-3x" style="color:#FFA08C"></i></a></li>
 
-      <li><a href="https://github.com/breeceparsons1"><i class="fab fa-github fa-3x" style="color:#FFA08C"></i></a></li>
+      <li><a target=_new href="https://github.com/breeceparsons1"><i class="fab fa-github fa-3x" style="color:#FFA08C"></i></a></li>
     </ul></div><br>
 
     <div class="row">
       <div class="col-md-6">
         <div class="about">
-          <p>I am currently an undergraduate student at the University of Maryland with a double major in broadcast journalism and finance. Being a section editor for multiple school publications, I learned how to effectively meet a deadline and have developed greater research and writing skills. During my time as the VP of Fundraising for the UMD collegiate chapter of the American Marketing Association, I have been given great opportunities and obtained greater communication skills as I continue to learn more about business education. Through my previous internship in the finance department of DARCARS, I have gained valuable customer service and time management skills along with a greater sense of responsibility.</p>
+          <p>I am currently an undergraduate student at the University of Maryland with a double major in broadcast journalism and finance.<br> Being a section editor for multiple school publications, I learned how to effectively meet a deadline and have developed greater research and writing skills.<br> During my time as the VP of Fundraising for the UMD collegiate chapter of the American Marketing Association, I have been given great opportunities and obtained greater communication skills as I continue to learn more about business education. <br>Through my previous internship in the finance department of DARCARS, I have gained valuable customer service and time management skills along with a greater sense of responsibility.</p>
         </div>
        </div>
-      <div class="col-md-6"><img src="images/breece.jpg" width="300px"></div>
+      <div class="col-md-6">
+        <img src="images/breece.jpeg" class="image"></div alt="Image of Breece Parsons">
     </div>
 
 <div class="experience">
-  <div id="sectionheader">Experience</div><br>
+  <div id="expheader">Experience</div><br>
 
           <div class="row">
 
@@ -253,7 +244,7 @@
 </div>
 
 <div class="skills">
-<div id="sectionheader">Skills</div><br>
+<div id="skillsheader">Skills</div><br>
   <div class="do">
       <li><strong>Photo editing</strong> with Adobe Photoshop</li>
       <li><strong>Video editing</strong> with Adobe Premiere Pro and Adobe Bridge</li>

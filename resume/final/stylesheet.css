@@ -9,28 +9,38 @@
 .menu li {
   display: inline;
   list-style-type: none;
-
-.banner {
-  width: 500px;
-  height: 500px;
-}
-
-@media screen and (max-width: 300px) {
-  .banner {
-    width: 100%;
-  }
 }
 
 .container {
-  width: 1600px;
-  height: 500px;
-  text-align: center;
+  background-color: #F8E2CC;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 100%;
 }
 
+.banner {
+  width: 100%;
+  margin: 0 auto;
 }
+
+
 .about {
   text-align: center;
+  font-weight: bold;
+
 }
+
+.image {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  max-width: 600px;
+}
+
+
 
 .experience {
   background-color: #FCD3C5;
@@ -46,44 +56,56 @@
 .skills {
   background-color: #FCD3C5;
 }
+
 /*experience section title*/
-#sectionheader {
-  font-size: 4em;
+#expheader {
+  font-size: 60px;
   text-transform: uppercase;
   background-color: #FFA08C;
   color: white;
   font-weight: 400;
   margin-bottom: 10px;
   margin-top: 20px;
-  width: 70%;
-  min-width: 1110px;
+  width: 100%;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 #eduheader {
-  font-size: 4em;
+  font-size: 60px;
   text-transform: uppercase;
   background-color: #FCD3C5;
   color: black;
   font-weight: 400;
   margin-bottom: 10px;
   margin-top: 20px;
-  width: 70%;
-  min-width: 1110px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#skillsheader {
+  font-size: 60px;
+  text-transform: uppercase;
+  background-color: #FFA08C;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 #organization {
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 21px;
   font-family: 'Merriweather', serif;
 }
 
 #date {
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 18px;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -91,14 +113,14 @@
   font-weight: bold;
   border-left: 4px solid #FFA08C;
   padding-left: 10px;
-  font-size: 1.7em;
+  font-size: 21px;
   font-family: 'Merriweather', serif;
 }
 
 p {
   border-left: 4px solid #FFA08C;
   padding-left: 10px;
-  font-size: 1.5em;
+  font-size: 15px;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -106,6 +128,10 @@ p {
   list-style-type:none;
   border-left: 4px solid #FCD3C5;
   padding-left: 10px;
-  font-size: 1.5em;
+  font-size: 15px;
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.jumbotron {
+  color: white;
 }
