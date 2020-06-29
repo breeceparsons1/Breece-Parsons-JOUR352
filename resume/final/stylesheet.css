@@ -30,7 +30,16 @@
 .about {
   text-align: center;
   font-weight: bold;
-
+  border-right: 6px solid #FFA08C;
+  padding-right: 10px;
+  border-top: 6px solid #FFA08C;
+  padding-top: 10px;
+  border-bottom: 6px solid #FFA08C;
+  padding-bottom: 10px;
+  border-left: 6px solid #FFA08C;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .image {
