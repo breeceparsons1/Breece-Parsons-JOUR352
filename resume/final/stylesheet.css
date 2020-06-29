@@ -101,12 +101,14 @@
   font-weight: bold;
   font-size: 21px;
   font-family: 'Merriweather', serif;
+  padding-left: 10px;
 }
 
 #date {
   font-style: italic;
   font-size: 18px;
   font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 10px;
 }
 
 #jobtitle {
@@ -122,6 +124,7 @@ p {
   padding-left: 10px;
   font-size: 15px;
   font-family: 'Noto Sans JP', sans-serif;
+  padding-right: 10px;
 }
 
 .do {
