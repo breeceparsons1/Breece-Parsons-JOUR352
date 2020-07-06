@@ -21,7 +21,14 @@
 
 p {
   font-family: georgia, serif;
-  line-height: 180%
+  line-height: 180%;
+  text-align: left;
+}
+
+.caption {
+  text-align: center;
+  font-family: georgia, serif;
+  line-height: 180%;
 }
 
 .beginning {
@@ -33,11 +40,47 @@ p {
 }
 
 .group1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: white;
   color: black;
-  width: 100%
-  padding-bottom: 20px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-left: 10px;
+}
+
+.group2{
   padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  width: 100%
+}
+
+.group6{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-family: georgia, serif;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.additional {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
 }
 
 .caption {
@@ -54,6 +97,20 @@ p {
   font-size: 16px;
 }
 
+.graphic {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 150px;
+    background-color: white;
+}
+
+.graphic1 {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: white;
+  }
 #footer {
   background-color: black;
   text-align: center;
@@ -63,4 +120,9 @@ p {
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 200%;
+}
+
+button {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
