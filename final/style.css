@@ -19,6 +19,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.open {
+  border-left: 5px solid white;
+  padding-left: 5px;
+  color: white;
+  font-family: georgia, serif;
+  line-height: 180%;
+  text-align: left;
+  font-size: 20px;
+}
+
 p {
   font-family: georgia, serif;
   line-height: 180%;
@@ -35,8 +45,8 @@ p {
   background-color: black;
   width:100%;
   color: white;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 20%;
+  padding-top: 50px;
 }
 
 .group1 {
@@ -73,6 +83,8 @@ p {
 
 .menu li {
   list-style-type: none;
+  text-align: left;
+  font-weight: normal;
 }
 
 .additional {
@@ -112,16 +124,26 @@ p {
     background-color: white;
   }
 #footer {
-  background-color: black;
+  background-color: white;
   text-align: center;
   font-family: georgia, serif;
-  color: white;
+  color: black;
   font-size: 14px;
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 200%;
+  list-style-type: none;
+  font-weight: bold;
 }
 
+.copy {
+  font-weight: normal;
+  text-align: center;
+  font-family: georgia, serif;
+  color: black;
+  background-color: white;
+  line-height: 200%;
+}
 button {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
