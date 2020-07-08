@@ -61,6 +61,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.chapter1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .p1 {
   font-family: georgia, serif;
   line-height: 180%;
