@@ -59,6 +59,7 @@
   font-weight: 700;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 .chapter1 {
@@ -104,7 +105,6 @@ p {
   width:100%;
   color: white;
   padding-bottom: 20%;
-  padding-top: 50px;
 }
 
 .group1 {
@@ -187,6 +187,8 @@ p {
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .graphic1 {
@@ -228,6 +230,7 @@ blockquote {
   padding-left: 20px;
   font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
 }
 
 @media (max-width:550px) {
