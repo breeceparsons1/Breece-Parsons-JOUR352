@@ -62,7 +62,7 @@ p {
 .image {
   width: 100%;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-left: 10px;
 }
 
@@ -118,7 +118,6 @@ p {
 .graphic {
     width: 100%;
     margin: 0 auto;
-    padding-top: 150px;
     background-color: white;
 }
 
@@ -152,5 +151,12 @@ p {
 }
 button {
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+blockquote {
+  border-left: 4px solid white;
+  padding-left: 20px;
+  font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
 }
