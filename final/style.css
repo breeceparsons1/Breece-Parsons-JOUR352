@@ -1,8 +1,14 @@
+.jumbotron {
+  background-image: url(file:///Users/breeceparsons/Desktop/JOUR/JOUR352/Breece-Parsons-JOUR352/final/images/virus.jpg);
+  background-size: cover;
+}
+
 .headline {
   font-size: 3em;
   font-weight: 700;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 .byline {
@@ -10,6 +16,9 @@
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: white;
+  font-weight: bold;
+  text-align: right;
 }
 
 .chapter {
