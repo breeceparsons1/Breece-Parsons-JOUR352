@@ -94,7 +94,7 @@ p {
 }
 
 .group1 {
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 10%;
   background-color: black;
   color: white;
@@ -116,7 +116,7 @@ p {
   padding-left: 10px;
 }
 .group2{
-  padding-top: 20px;
+  padding-top: 85px;
   padding-bottom: 20%;
   background-color: black;
   color: white;
@@ -124,7 +124,7 @@ p {
 }
 
 .group4{
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 20%;
   width: 100%;
   font-family: georgia, serif;
@@ -133,7 +133,8 @@ p {
 }
 
 .group5{
-  padding-bottom: 20%;
+  padding-top: 100px;
+  padding-bottom: 50px;
   width: 100%;
   font-family: georgia, serif;
   text-align: center;
