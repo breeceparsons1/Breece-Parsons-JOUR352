@@ -193,7 +193,8 @@ p {
     margin: 0 auto;
     background-color: white;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .graphic1 {
