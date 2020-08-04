@@ -11,6 +11,35 @@
   list-style-type: none;
 }
 
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+
+}
+
+.overlay{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  background: #000;
+  opacity: .8;
+}
+
+.hero-hed {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .25em;
+
+}
+
 .container {
   background-color: #F8E2CC;
   width: 100%;
@@ -22,10 +51,6 @@
   padding-top: 10px;
 }
 
-.banner {
-  width: 100%;
-  margin: 0 auto;
-}
 
 
 .about {
